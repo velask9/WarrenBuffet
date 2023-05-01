@@ -1,0 +1,48 @@
+body {
+  color: navy;
+}
+
+.heading {
+  color: navy;
+}
+.heading p { margin: 0%;}
+
+.body p { margin: 40%;}
+
+
+
+.heading
+.column {
+  color: navy;
+}
+
+h1 {
+  text-align: center;
+}
+.likes {
+  text-align: center;
+}
+h6 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+.Legal {
+  text-align: left;
+}
+.column {
+float:left;
+width: 50%;
+}
+
+.row ::after{ 
+    display: table;
+    clear:both
+}
+li{
+    margin: 30px;
+}
