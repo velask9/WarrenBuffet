@@ -1,32 +1,33 @@
 body {
-  color: navy;
+  color:#000080;
 }
 
 .heading {
   color: navy;
 }
 .heading p { margin: 0%;}
-
-.body p { margin: 40%;}
-
+.body p { margin: 10%;}
 
 
-.heading
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font size: 18px ;
+}
+
+.heading p{
+    font-size: small;
+    margin: 0;
+}
 .column {
-  color: navy;
+  color:black;
 }
+h6 {text-align: center;}
 
-h1 {
-  text-align: center;
-}
-.likes {
-  text-align: center;
-}
-h6 {
-  text-align: center;
-}
 h4 {
-  text-align: center;
+  text-align: left;
 }
 footer {
   text-align: center;
@@ -44,5 +45,16 @@ width: 50%;
     clear:both
 }
 li{
-    margin: 30px;
+    margin: 5px;
 }
+
+a{
+    color: #800080;
+    font-size: medium;
+
+a:visited {
+    color: #ff0000;
+}
+
+
+
